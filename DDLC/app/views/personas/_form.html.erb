@@ -1,0 +1,20 @@
+<div class="row">
+  <aside class="col-md-6">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div Style="color:white" class="col-lg-3 mb-4">.</div>
+        <div class="col-md-12 col-lg-6 mb-4">
+        <%= simple_form_for @persona do |f| %>
+          <%= f.input :cedula %>
+          <%= f.input :fecha_nacimiento %>
+          <%= f.input :telefono %>
+          <%= f.association :genero, label_method: :genero %>
+          <br>
+          <div class="form-actions">
+            <%= f.button :submit , class: 'btn btn-primary btn-block'%>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </aside>
+</div>

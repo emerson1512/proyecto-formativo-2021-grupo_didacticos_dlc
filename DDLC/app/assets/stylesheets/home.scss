@@ -1,0 +1,40 @@
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.fotos{
+  height: 80px;
+  width: 80px;
+  padding-left: 20px;
+  margin-top: 2; 
+}
+
+.box {
+  padding: .5rem;
+  height: 180px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.03);
+  border-radius: 4px;
+}
+
+.box-flex{
+  margin: 0 3px 1px 0;
+  outline: 1px solid gray;
+}
+
+h4 {
+  font-size: 120%;
+  font-family: sans-serif;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: #227;
+}
+
+.price{
+  color: #44a;
+  font-weight: bold;
+  margin-right: 3em;
+  margin-bottom: 2px;
+}

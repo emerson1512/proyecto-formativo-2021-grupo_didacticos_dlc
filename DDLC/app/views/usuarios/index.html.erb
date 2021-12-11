@@ -1,0 +1,30 @@
+<p id="notice"><%= flash[:notice] %></p>
+<h1 class="text-center , fs-1">Listing Usuarios</h1>
+
+<div>
+<%= link_to 'Crear usuarios', new_usuario_path, class:"btn btn-small btn-success" %>
+</div><br>
+
+
+<table class = "table table-bordered table-hover">
+  <tr>
+    <th>identificacion</th>
+    <th>nombre</th>
+    <th>telefono</th>
+    <th>direccion</th>
+    <th colspan="4">Accion</th>
+  </tr>
+
+  <% @usuarios.each do |usuario| %>
+    <tr>
+      <td><%= usuario.identificacion %></td>
+      <td><%= usuario.nombre %></td>
+      <td><%= usuario.telefono %></td>
+      <td><%= usuario.direccion %></td>
+      <td><%= link_to 'Ver', usuario, class: 'btn btn-success' %></td>
+      <td><%= link_to 'Editar', edit_usuario_path(usuario), class: 'btn btn-primary' %></td>
+      <td><%= link_to 'Elimirar', usuario,
+        method: :delete, data: { confirm: 'Estas seguro?' }, :class => 'btn btn-danger' %></td>
+    </tr>
+  <% end %>
+</table>

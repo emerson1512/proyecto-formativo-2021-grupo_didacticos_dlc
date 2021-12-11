@@ -1,0 +1,17 @@
+<h1 class="text-center , fs-1">ver tipos</h1>
+
+<div>
+  <%= link_to 'Editar', edit_tipo_path(@tipo), class: 'btn btn-primary' %>
+  <%= link_to 'Atras', tipos_path, class: 'btn btn-primary' %>
+</div><br>
+
+<section class="row">
+    <aside class="col-xs-6">
+      <dl class="well well-sm , tab-content">
+        <dt>tipo:</dt>
+        <dd><%= @tipo.tipo%></dd>
+        <dt>estado:</dt>
+        <dd><%= @tipo.estado%></dd>
+      </dl>
+    </aside>
+  </section>

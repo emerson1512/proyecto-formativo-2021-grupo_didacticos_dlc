@@ -1,0 +1,18 @@
+<h1 class="text-center , fs-1">ver organizaciones</h1>
+
+<div>
+  <%= link_to 'Atras', organizaciones_path, class: 'btn btn-primary' %>
+</div><br>
+
+<section class="row">
+  <aside class="col-xs-6">
+    <dl class="well well-sm , tab-content">
+      <dt>tipo_de_organizacion:</dt>
+      <dd><%= @organizacione.tipo_de_organizacion%></dd>
+      <dt>numero_de_empleado:</dt>
+      <dd><%= @organizacione.numero_de_empleado%></dd>
+      <dt>representantes:</dt>
+      <dd><%= @organizacione.representantes%></dd>
+    </dl>
+  </aside>
+</section>          

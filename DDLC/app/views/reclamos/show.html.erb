@@ -1,0 +1,25 @@
+<h1 class="text-center , fs-1">ver Reclamo</h1>
+
+<div>
+  <%= link_to 'Editar', edit_reclamo_path(@reclamo), class: 'btn btn-primary' %>
+  <%= link_to 'Atras', reclamos_path, class: 'btn btn-primary' %>
+</div><br>
+
+<section class="row">
+  <aside class="col-xs-6">
+    <dl class="well well-sm , tab-content">
+        <dt>codigo:</dt>
+        <dd><%= @reclamo.codigo%></dd>
+        <dt>identificacion_del_cliente:</dt>
+        <dd><%= @reclamo.identificacion_del_cliente%></dd>
+        <dt>nombre_del_cliente:</dt>
+        <dd><%= @reclamo.nombre_del_cliente%></dd>
+        <dt>producto_adquirido:</dt>
+        <dd><%= @reclamo.producto_adquirido%></dd>
+        <dt>fecha_de_compra:</dt>
+        <dd><%= @reclamo.fecha_de_compra%></dd>
+        <dt>estado_del_producto:</dt>
+        <dd><%= @reclamo.estado_del_producto%></dd>
+    </dl>
+  </aside>
+</section>

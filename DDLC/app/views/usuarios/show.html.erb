@@ -1,0 +1,21 @@
+<h1 class="text-center , fs-1">ver usuario</h1>
+
+<div>
+  <%= link_to 'Editar', edit_usuario_path(@usuario), class: 'btn btn-primary' %>
+  <%= link_to 'atras', usuarios_path, class: 'btn btn-primary' %>
+</div><br>
+
+<section class="row">
+  <aside class="col-xs-6">
+    <dl class="well well-sm , tab-content">
+        <dt>identificacion:</dt>
+        <dd><%= @usuario.identificacion%></dd>
+        <dt>nombre:</dt>
+        <dd><%= @usuario.nombre%></dd>
+        <dt>telefono:</dt>
+        <dd><%= @usuario.telefono%></dd>
+        <dt>direccion:</dt>
+        <dd><%= @usuario.direccion%></dd>
+    </dl>
+  </aside>
+</section>

@@ -1,0 +1,40 @@
+<h1 class="text-center , fs-1">Listing productos</h1>
+
+<div>
+<%= link_to "Crear producto", new_producto_path, class:"btn btn-small btn-success"%>
+<%= link_to "Crear tipos", tipos_path, class: "btn btn-small btn-success" %>
+</div><br>
+
+<table class = "table table-bordered table-hover">
+  <tr>
+    <th>codigo</th>
+    <th>nombre</th>
+    <th>referencia</th>
+    <th>stock</th>
+    <th>precio</th>
+    <th>tipo</th>
+    <th>foto</th>
+    <th colspan="7">Accion</th>
+  </tr>
+
+  <% @productos.each do |producto| %>
+    <tr>
+      <td><%= producto.codigo %></td>
+      <td><%= producto.nombre %></td>
+      <td><%= producto.referencia%></td>
+      <td><%= producto.stock%></td>
+      <td><%= producto.precio %></td>
+      <td><%= producto.tipo %></td>
+      <td><%= link_to "Ver foto", producto, :class => 'enlaces' %></td>
+      <td><%= link_to 'Ver', producto, class:"btn btn-success" %></td>
+      <td><%= link_to 'Editar', edit_producto_path(producto), class:"btn btn-primary" %></td>
+      <td><%= link_to 'Eliminar', producto,
+      method: :delete, data: { confirm: 'Estas seguro?' }, :class =>"btn btn-danger" %></td>
+    </tr>
+  <% end %>
+</table>
+
+
+
+
+

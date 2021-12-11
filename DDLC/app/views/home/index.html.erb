@@ -1,0 +1,24 @@
+<section class = "row">
+    <aside class = "col-md-4">
+      <%= render "layouts/aside" %>
+    </aside>
+    <article class = "col-md-8">
+      <div class="well">
+        <div class="flex-container">
+          <% @productos.each do |producto| %>
+            <div class="box">
+              <div class="box-flex">
+                <%= image_tag(producto.foto_url, :class => 'fotos') if producto.foto? %>
+                <h4><%= producto.nombre %></h4>
+                <span class="price"><%= number_to_currency(producto.precio, unit: "$") %></span>
+                <%= button_to 'Add to Cart', line_items_path(producto_id: producto) %>
+              </div>
+            </div>
+          <% end %>  
+        </div>
+      </div>
+    </article>
+</section>
+
+
+

@@ -1,0 +1,7 @@
+<fieldset>
+    <%= form_for @user do |f| %>
+    <%= f.collection_check_boxes :role_ids, Role.all, :id, :name %>
+    <%= @user.errors[:roles] %>
+    <%= f.button :submit %>
+    <% end %>   
+</fieldset>

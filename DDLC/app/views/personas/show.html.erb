@@ -1,0 +1,20 @@
+<h1 class="text-center , fs-1"> Ver personas</h1>
+
+<div>
+  <%= link_to 'Atras', personas_path, class: 'btn btn-primary' %>
+</div><br>
+
+<section class="row">
+  <aside class="col-md-4">
+    <dl class="well well-sm , tab-content">
+      <dt>cedula:</dt>
+      <dd><%= @persona.cedula%></dd>
+      <dt>genero:</dt>
+      <dd><%= @persona.genero%></dd>
+      <dt>fecha_nacimiento:</dt>
+      <dd><%= @persona.fecha_nacimiento%></dd>
+      <dt>telefono:</dt>
+      <dd><%= @persona.telefono%></dd>
+    </dl>
+  </aside>
+</section>
