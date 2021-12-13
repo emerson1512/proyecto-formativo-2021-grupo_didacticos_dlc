@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <title>PLAN DE PRUEBAS</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/encuesta_gerente.css">
+    </head>
+    <body style="background-color: gray;">
+        <nav height="100" id="arriba">
+            <div id="lado1">
+              <a class="j1" href="../index.html"><b>retorno</b></a>
+              </div>
+            <div id="lado2">
+              <img src="../assets/img/portfolio/Sena2.png" alt="" width="50" height="50"/>
+              </div>
+        </nav>
+        <main class="container" style="background-color: gray;  margin-bottom: 20px;">
+            <section class="row">
+                <!--NOMBRE DEL PROYECTO-->
+                <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h1><strong>ANÁLISIS, DISEÑO, DESARROLLO E IMPLEMENTACIÓN DE UN SOFTWARE DE VENTAS PARA LA EMPRESA DISTRIBUCIONES Y DIDACTICOS DE LA COSTA. (SOVEDIDCOST).</strong></h1>
+                </article>
+                <!--NOMBRE DE LA EMPRESA-->
+                <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h2>DISTRIBUSCIONES Y DIDACTICOS DE LA COSTA.</h2>
+                </article>
+                <!--CONTROL DE VERSION-->
+                <section border="3" style="margin-top: 20px;text-align: center;padding-top: 25px ;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: center;border-color: black;margin-bottom: 30px;">
+                    <tr style= "background-color: gray;color: white;">
+                        <td><b>Fecha</b></td>
+                        <td><b>Version</b></td>
+                        <td><b>Descripcion</b></td>
+                        <td><b>Autor(es)</b></td>
+                    </tr>
+                    <tr>
+                        <td>27-09-2021</td>
+                        <td>1.0</td>
+                        <td>Primera version del software</td>
+                        <td>
+                        <ul>
+                            <li style="list-style: none;">Samly Guzman</li>
+                            <li style="list-style: none;">Maverick Fruto</li>
+                            <li style="list-style: none;">Jorge Gonzalez</li>
+                            <li style="list-style: none;">Emerson Gonzalez</li>
+                            <li style="list-style: none;">Roberto cahuana</li>
+                        </ul>
+                        </td>
+                    </tr>
+                    </table>
+                </section>
+                <!--NOMBRE DEL DOCUMENTO-->
+                <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h2>PLAN DE PRUEBAS.</h2>
+                </article>
+                <article border="3" style="margin-top: 25px;padding: 10px 0; ;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-1 col-sm-1 col-xs-1">
+                    <button type="button" style="border: none;background-color:#E7E7E7;"><a href="../assets/doc/PlanDePruebas.pdf" download="PlanDePruebas.pdf"><img src="../assets/img/descarga.png" alt="" width="30" height="30"></a></button>
+                </article>
+                <!--1- ALCANCE-->
+                <article border="3" style="margin-top: 20px;text-align: justify;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h3 style="text-align: center;"><strong>ALCANCE.</strong></h3>
+                    <p>
+                        Distribuciones y didácticos de la costa, es una empresa dedicada a la venta de útiles escolares a las distintas instituciones de la ciudad. <br>
+                        En base a esto, nosotros como aprendices Sena, decidimos desarrollar un aplicativo web, para dicha empresa; se diseñó este plan de pruebas, con el fin de evaluar y garantizar que los módulos desarrollados funcionen de manera correcta y cumplan con los requisitos de nuestro cliente.                         
+                    </p>
+                    <ol>
+                        <!--OBJETIVOS-->
+                        <li>
+                            <H5><b>OBJETIVOS Y TAREAS.</b></H5>
+                            <h6>Objetivos</h6>
+                            <ul>
+                                <li>Implementar un plan de pruebas.</li>
+                                <li>Evaluar los módulos desarrollados por los aprendices.</li>
+                                <li>Garantizar un buen trabajo y el perfecto funcionamiento del sistema.</li>
+                            </ul>
+                            <h6>Tareas</h6>
+                            <ul>
+                                <li>Elaborar el plan de pruebas. </li>
+                                <li>Elaborar los casos de prueba.</li>
+                                <li>Elaborar el informe de dichas pruebas.</li>
+                                <li>Diseñar los casos de prueba </li>
+                                <li>Como se diseñaron los casos de prueba</li>
+                                <li>Escoger la estrategia para realizar la prueba.</li>
+                                <li>Determinar la técnica para realizar esa prueba.</li>
+                                <li>Registrar e resultado de las pruebas.</li>
+                            </ul>
+                        </li>
+                        <!--AUDIENCIA PREVISTA-->
+                        <li>
+                            <h5><b>AUDIENCIA PREVISTA.</b></h5>
+                            <p>Los instructores y el jefe de la empresa estarán auditando el proceso de pruebas que se le realicen a los distintos módulos del sistema. Con el fin de tener un resultado exitoso.</p>
+                            <ul>
+                                <li>Equipo de pruebas: Samly Guzman, Emerson Gonzalezrubio.</li>
+                                <li>Equipo de desarrollo: Roberto Cahuana, Jorge González.</li>
+                                <li>Jefe de proyecto: Maverick Fruto.</li>
+                                <li>Grupos de aseguramiento de la calidad: Maverick Fruto, Samly Guzman, Emerson Gonzalezrubio.</li>
+                            </ul>
+                        </li>
+                        <!--AUDIENCIA PREVISTA-->
+                        <li>
+                            <h5><b>REFERENCIAS.</b></h5>
+                            <p>Lista todos los documentos que se han utilizado para crear este plan, los que se usarán en el desarrollo de casos de pruebas o durante la ejecución de pruebas. Estos se pueden listar en una tabla como la siguiente:</p>
+                            <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: center;border-color: black;margin-bottom: 30px;">
+                                <tr style= "background-color: gray;color: white;">
+                                    <td><b>DOCUMENTO</b></td>
+                                    <td><b>AUTOR</b></td>
+                                    <td><b>VERSION</b></td>
+                                    <td><b>LOCALIZACION</b></td>
+                                </tr>
+                                <tr>
+                                    <td>SRS</td>
+                                    <td>Grupo de proyecto</td>
+                                    <td>1.0</td>
+                                    <td>.</td>
+                                </tr>
+                                <tr>
+                                    <td>Plan de calidad</td>
+                                    <td>Grupo de proyecto</td>
+                                    <td>1.0</td>
+                                    <td>.</td>
+                                </tr>
+                                <tr>
+                                    <td>Plan de trabajo</td>
+                                    <td>Grupo de proyecto</td>
+                                    <td>1.0</td>
+                                    <td>.</td>
+                                </tr>
+                                <tr>
+                                    <td>Pruebas de software</td>
+                                    <td>Grupo de proyecto</td>
+                                    <td>1.0</td>
+                                    <td>.</td>
+                                </tr>
+                                <tr>
+                                    <td>Métricas</td>
+                                    <td>Grupo de proyecto</td>
+                                    <td>1.0</td>
+                                    <td>.</td>
+                                </tr>
+                                </table>
+                        </li>
+                    </ol>
+                </article>
+                <!--2- ALCANCE Y ENFOQUE-->
+                <article border="3" style="margin-top: 20px;text-align: justify;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h3 style="text-align: center;"><strong>ALCANCE Y ENFOQUE.</strong></h3>
+                    <ol>
+                        <!--ÍTEMS A PROBAR (FUNCIONES)-->
+                        <li>
+                            <h5><b>ÍTEMS A PROBAR (FUNCIONES).</b></h5>
+                            <ul>
+                                <li>Módulo de ventas.</li>
+                                <li>Módulo de loguin.</li>
+                                <li>Módulo de registro.</li>
+                            </ul>
+                        </li>
+                        <!--CUESTIONES DE RIESGO-->
+                        <li>
+                            <h5><b>CUESTIONES DE RIESGO.</b></h5>
+                            <p>Identifica qué software se ha de probar y cuáles son las áreas críticas, tales como:</p>
+                            <ul>
+                                <li>Entregable de un producto desarrollado por terceros.</li>
+                                <li>Capacidad de usar y entender una nueva herramientas.</li>
+                                <li>Funciones extremadamente complejas.</li>
+                                <li>Modificaciones de componentes con un histórico pasado de fallos.</li>
+                                <li>Módulos o peticiones de cambio mal documentados.</li>
+                            </ul>
+                            <p>Hay algunos riesgos de software inherentes como la complejidad; éstos han de ser identificados. <br>
+                                Otra posible área de riesgo es el mal entendimiento de los requisitos originales. Esto puede ocurrir a nivel de gestión, usuario o desarrollador. Hay que tener en cuenta los requisitos que no están claros y los que no se pueden probar.
+                            </p>
+                        </li>
+                        <!--CARACTERÍSTICAS A PROBAR-->
+                        <li>
+                            <h5><b>CARACTERÍSTICAS A PROBAR.</b></h5>
+                            <ul>
+                                <li>Loguin.</li>
+                                <li>Base de datos.</li>
+                                <li>Reportes.</li>
+                            </ul>
+                        </li>
+                        <!--CARACTERÍSTICAS QUE NO SE VAN A PROBAR-->
+                        <li>
+                            <h5><b>CARACTERÍSTICAS QUE NO SE VAN A PROBAR.</b></h5>
+                            <p>Tiempo de respuesta del servidor y diseño de las interfaces. </p>
+                        </li>
+                        <!--ENFOQUE (ESTRATEGIA)-->
+                        <li>
+                            <h5><b>ENFOQUE (ESTRATEGIA)</b></h5>
+                            <p>Para poder realizar las pruebas tomamos como estrategias las pruebas unitarias, estas se basan en comprobar el correcto funcionamiento de una unidad de código. Por ejemplo en diseño estructurado o en diseño funcional una función o un procedimiento, en diseño orientado a objetos una clase.</p>
+                        </li>
+                    </ol>
+                </article>
+                <!--3- CRITERIOS DE TRANSICIÓN-->
+                <article border="3" style="margin-top: 20px;text-align: justify;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h3 style="text-align: center;"><strong>CRITERIOS DE TRANSICIÓN.</strong></h3>
+                    <p>A continuación se describen los criterios requeridos para las pruebas para poder pasar de un estado a otro.</p>
+                    <ol>
+                        <!--CRITERIOS DE ENTRADA-->
+                        <li>
+                            <h5><b>CRITERIOS DE ENTRADA.</b></h5>
+                            <p>Lista todos los criterios que se han de satisfacer para empezar la ejecución de las pruebas. Entre los posibles ítems que se pueden incluir están los siguientes:</p>
+                            <ul>
+                                <li>Aprobación del plan de pruebas.</li>
+                                <li>Entorno de pruebas estable y preparado.</li>
+                                <li>Casos de pruebas escritos y aprobados.</li>
+                                <li>Herramientas de pruebas preparadas.</li>
+                                <li>Recursos para las pruebas disponibles.</li>
+                            </ul>
+                        </li>
+                        <!--CRITERIOS DE SALIDA-->
+                        <li>
+                            <h5><b>CRITERIOS DE SALIDA.</b></h5>
+                            <p>Lista todos los criterios que se han de satisfacer para que una fase de pruebas se de por finalizada. Entre los posibles ítems que se pueden incluir están:</p>
+                            <ul>
+                                <li>Completitud de los casos de pruebas.</li>
+                                <li>Números y severidad de los defectos abiertos.</li>
+                                <li>Paso de los objetivos de pruebas.</li>
+                            </ul>
+                        </li>
+                        <!--CRITERIOS DE SUSPENCION-->
+                        <li>
+                            <h5><b>CRITERIOS DE SUSPENCION.</b></h5>
+                            <p>Fallas presentadas en el Hardware.</p>
+                        </li>
+                        <!--CRITERIOS DE REANUDACION-->
+                        <li>
+                            <h5><b>CRITERIOS DE REANUDACION.</b></h5>
+                            <ul>
+                                <li>Corregir errores o fallas presentadas.</li>
+                                <li>Contar con los recursos disponibles.</li>
+                            </ul>
+                        </li>
+                        <!--CRITERIOS DE ÉXITO Y FALLO-->
+                        <li>
+                            <h5><b>CRITERIOS DE ÉXITO Y FALLO.</b></h5>
+                            <P>Si más del 90% de las pruebas realizadas dieron como resultado un valor satisfactorio, se clasifica como éxito, de lo contrario si mas del 50% de las pruebas no mostraron buenos resultados sería una falla.</P>
+                        </li>
+                    </ol>
+                </article>
+                <!--4- ESTRATEGIA DE PRUEBAS-->
+                <article border="3" style="margin-top: 20px;text-align: justify;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h3 style="text-align: center;"><strong>ESTRATEGIA DE PRUEBAS.</strong></h3>
+                    <p>Una Estrategia de prueba de software integra las técnicas de diseño de casos de prueba en una serie de pasos bien planificados que llevan a la construcción correcta del software. Es una parte fundamental del proceso de validación y verificación del software.
+                        <br>
+                        Sovedidcost, para la realización de estas pruebas, tomo como estrategias las pruebas de caja negra, que es una técnica de pruebas de software en la cual la funcionalidad se verifica sin tomar en cuenta la estructura interna de código, detalles de implementación o escenarios de ejecución internos en el software.
+                        <br>
+                        En las pruebas de caja negra, nos enfocamos solamente en las entradas y salidas del sistema, sin preocuparnos en tener conocimiento de la estructura interna del programa de software. Para obtener el detalle de cuáles deben ser esas entradas y salidas, nos basamos en los requerimientos de software y especificaciones funcionales.
+                        <br>
+                        Las pruebas de caja negra no utilizan ninguna información interna de los componentes de software o sistemas que se van a probar, sino que consideran el comportamiento del software desde el punto de vista de un observador externo, es decir, tal y como lo “viven” los usuarios del sistema.
+                        <br>
+                        Hay una secuencia de pasos a seguir media estandarizada para poder realizar este tipo de prueba de manera efectiva:
+                    </p>
+                    <ol>
+                        <li>Lo primero será un previo análisis de los requisitos y especificaciones del software.</li>
+                        &nbsp;
+                        <li>El tester diseñará una batería de entradas validas, también llamada escenario de prueba positiva, para verificar si el software las procesa correctamente. También se diseñan entradas no válidas (llamado escenario de prueba negativa) para comprobar si el software que se está probando es capaz de detectarlas y reaccionar antes estas entradas.</li>
+                        &nbsp;
+                        <li>Basándose en las entradas, el tester determina para cada una de estas las salidas esperadas correspondientes.</li>
+                        &nbsp;
+                        <li>Una vez que se tienen las entradas y su correspondiente salida, se diseña los casos de prueba.</li>
+                        &nbsp;
+                        <li>Se ejecutan esos casos de pruebas.</li>
+                        &nbsp;
+                        <li>El tester comprueba la salida que ha emitido el software con la salida esperada de los casos de prueba.</li>
+                        &nbsp;
+                        <li>Si la salida del software coincide con la salida esperada, el software hace lo que tiene que hacer para esa entrada. Pero si la salida del software no coincide con la salida esperada, hemos encontrado un defecto en el software. Lo que conllevará su posterior reparación.</li>
+                    </ol>
+                </article>
+                <!--5- PLANIFICACIÓN Y RECURSOS-->
+                <article border="3" style="margin-top: 20px;text-align: justify;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h3 style="text-align: center;"><strong>PLANIFICACIÓN Y RECURSOS.</strong></h3>
+                    <ol>
+                        <!--PLANIFICACIÓN-->
+                        <li>
+                            <h5><b>PLANIFICACIÓN</b></h5>
+                            <ul>
+                                <li>Aprobación del plan de pruebas.</li>
+                                <li>Desarrollos de la lisara de casos de pruebas.</li>
+                                <li>Desarrollo de los casos de pruebas.</li>
+                                <li>Desarrollo de scripts de pruebas.</li>
+                                <li>Preparación del entorno de pruebas.</li>
+                                <li>Fechas de ejecución de pruebas.</li>
+                            </ul>
+                        </li>
+                        <!--RECURSOS-->
+                        <li>
+                            <h5><b>RECURSOS.</b></h5>
+                            <h6><b>Hardware</b></h6>
+                            <p>Para implantar nuestro sistema y realizar las pruebas, consideramos que se debería tener un pc, con las siguientes características:</p>
+                            <ul>
+                                <li>CPU: Intel Core i7-11700.</li>
+                                <li>RAM: 16GB GSkill Trident Z 3600 Mhz.</li>
+                                <li>GPU: NVIDIA GeForce 1060 6GB.</li>
+                                <li>PLACA BASE: Gigabyte B560 Aorus Pro AX.</li>
+                                <li>ALMACENAMIENTO: Samsung 970 EVO Plus 500GB.</li>
+                                <li>PSU: Corsair RM V2 750W 80Plus.</li>
+                                <li>CAJA: Nox Hummer MC USB 3.0.</li>
+                            </ul>
+                            <h6><b>Software</b></h6>
+                            <p>Listado de los requisitos de software: </p>
+                            <ul>
+                                <li>Sistema operativo de Windows.</li>
+                                <li>Microsoft office.</li>
+                                <li>Base datos Mqsl.</li>
+                                <li>Navegador google chrome.</li>
+                                <li>Etc…</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </article>
+                <!--6- REVISION DEL PLAN DE PRUEBAS-->
+                <article border="3" style="margin-top: 20px;text-align: justify;border-color: black;background-color:#E7E7E7; border-radius: 10px; padding-top: 20px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: center;border-color: black;margin-bottom: 30px;">
+                        <tr style= "background-color: gray;color: white;">
+                            <td colspan="3"><h3><b>REVISION DEL PLAN DE PRUEBAS</b></h3></td>                        
+                        </tr>
+                        <tr style= "background-color: gray;color: white;">
+                            <td><b>Anexos</b></td>
+                            <td><b>Revision</b></td>
+                            <td><b>Fecha</b></td>
+                        </tr>
+                        <tr>
+                            <td>Plan de casos de prueba</td>
+                            <td>Samly Guzmán. <br>
+                                Emerson Gonzalezrubio.</td>
+                            <td>30/02/2021</td>
+                        </tr>
+                        <tr>
+                            <td>Resultados de prueba</td>
+                            <td>Samly Guzmán. <br>
+                                Emerson Gonzalezrubio.</td>
+                            <td>30/02/2021</td>
+                        </tr>
+                    </table>
+                </article>    
+                <!--NOMBRE DEL DOCUMENTO-->
+                <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h2>CASOS DE PRUEBAS.</h2>
+                </article>
+                <article border="3" style="margin-top: 25px;padding: 10px 0; ;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-1 col-sm-1 col-xs-1">
+                    <button type="button" style="border: none;background-color:#E7E7E7;"><a href="../assets/doc/CasosDePruebas.pdf" download="CasosDePruebas.pdf"><img src="../assets/img/descarga.png" alt="" width="30" height="30"></a></button>
+                </article>
+                <!--1- DESCRIPCION-->
+                <article border="3" style="margin-top: 20px;text-align: justify;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h3 style="text-align: center;"><strong>DESCRIPCION.</strong></h3>
+                    <p>
+                        Este artefacto cubre el conjunto de pruebas realizadas sobre el Caso de Uso < Loguin, Registro y selección de productos >.
+                    </p>
+                    <ul>
+                        <li style="list-style: none;">Las pruebas realizadas a este caso de uso son:</li>
+                        &nbsp;
+                        <li>Pruebas de caja negra:</li>
+                        <li>Técnicas de equivalencia</li>
+                        &nbsp;
+                        <li style="list-style: none;">El entorno del cual partiremos para realizar la prueba será el formulario de entrada de la aplicación.</li>
+                    </ul>
+                </article>
+                <!--2- <Caso de uso: Modulo de Loguin >-->
+                <article border="3" style="margin-top: 20px;text-align: justify;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h3 style="text-align: center;"><strong>< CASO DE USO: MODULO DE LOGUIN></strong></h3>
+                    <ol>
+                        <!--Descripcion-->
+                        <li>
+                            <h5><b>Descripción</b></h5>
+                            <p>El objetivo de este módulo es verificar que el sistema permita el acceso de los usuarios para la pagina principal.</p>
+                        </li>
+                        <!--Condiciones de ejecución-->
+                        <li style="list-style: none;">
+                            <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: justify;border-color: black;margin-bottom: 30px;">
+                                <tr style= "background-color: gray;color: white; text-align: center;"><td colspan="4"><h5><b>Condiciones de ejecución</b></h5></td></tr>
+                                <tr style= "background-color: gray;color: white; text-align: center;"><td colspan="4"><p>Antes de realizar el buen funcionamiento de este módulo, se debió probar el módulo de registro.</p></td></tr>
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td><b>Datos De Entrada</b></td>
+                                    <td><b>Condiciones</b></td>
+                                    <td><b>Valor Verdadero</b></td>
+                                    <td><b>Valor Falso</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Usuario</td>
+                                    <td>Correo electrónico </td>
+                                    <td>
+                                        <ul>
+                                            <li>Máximo 65 caracteres.</li>
+                                            <li>Mínimo 10 caracteres.</li>
+                                            <li>Números y letras.</li>  
+                                            <li>Dominio y arroba.</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>Máximo 50 caracteres.</li>
+                                            <li>Mínimo 10 caracteres.</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Contraseña</td>
+                                    <td>
+                                        <ul>
+                                            <li>Mínimo 4 caracteres.</li>
+                                            <li>Máximo 5 caracteres.</li>
+                                            <li>Números.</li>
+                                            <li>Letras.</li>
+                                            <li>Mayúscula.</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>String min de 4 caracteres.</li> 
+                                            <li>Max 5 caracteres.</li>
+                                            <li>Debe tener número y mayúscula.</li>
+                                        </ul>
+                                    </td>
+                                    <td>String sea menor de 10 y mayor de 6 que no tenga número ni mayúscula.</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <!--Entrada-->
+                        <li style="list-style: none;">
+                            <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: justify;border-color: black;margin-bottom: 30px;">
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td colspan="3"><h5><b>Entrada</b></h5></td>
+                                </tr>
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td><b>Datos De Entrada</b></td>
+                                    <td><b>Valor Verdadero</b></td>
+                                    <td><b>Valor Falso</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Usuario</td>
+                                    <td>Correo electrónico </td>
+                                    <td>
+                                        <ul>
+                                            <li>Máximo 50 caracteres.</li>
+                                            <li>Mínimo 10 caracteres.</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Contraseña</td>
+                                    <td>
+                                        <ul>
+                                            <li>String min de 4 caracteres.</li> 
+                                            <li>Max 5 caracteres.</li>
+                                            <li>Debe tener número y mayúscula.</li>
+                                        </ul>
+                                    </td>
+                                    <td>String sea menor de 10 y mayor de 6 que no tenga número ni mayúscula.</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <!--Resultado esperado-->
+                        <li style="list-style: none;">
+                            <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: justify;border-color: black;margin-bottom: 30px;">
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td colspan="3"><h5><b>Resultado Esperado.</b></h5></td>
+                                </tr>
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td><b>Datos De Entrada</b></td>
+                                    <td><b>Valor Verdadero</b></td>
+                                    <td><b>Valor Falso</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Módulo de Loguin</td>
+                                    <td>Debe ingresar a la página principal</td>
+                                    <td>Mensaje de advertencia.</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <!--Evaluación de la Prueba-->
+                        <li style="list-style: none;">
+                            <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: justify;border-color: black;margin-bottom: 30px;">
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td colspan="4"><h5><b>Evaluación de la Prueba.</b></h5></td>
+                                </tr>
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td><b>Caso</b></td>
+                                    <td><b>Aprobado</b></td>
+                                    <td><b>No Aprobado</b></td>
+                                    <td><b>Comentario</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Módulo de Loguin</td>
+                                    <td>X</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </li>
+                    </ol>
+                </article>
+                <!--3- <Caso de uso: Registro de Usuario>-->
+                <article border="3" style="margin-top: 20px;text-align: justify;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h3 style="text-align: center;"><strong>< CASO DE USO: REGISTRO DE USUARIO></strong></h3>
+                    <ol>
+                        <!--Descripcion-->
+                        <li>
+                            <h5><b>Descripción</b></h5>
+                            <p>El objetivo de este módulo es verificar que los usuarios puedan registrarse en el sistema, que tenga los distintos componentes de un registro y se obtenga la información del usuario.</p>
+                        </li>
+                        <!--Condiciones de ejecución-->
+                        <li style="list-style: none;">
+                            <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: justify;border-color: black;margin-bottom: 30px;">
+                                <tr style= "background-color: gray;color: white; text-align: center;"><td colspan="4"><h5><b>Condiciones de ejecución</b></h5></td></tr>
+                                <tr style= "background-color: gray;color: white; text-align: center;"><td colspan="4"><p>Antes de realizar el buen funcionamiento de este módulo, se debió probar el módulo de registro.</p></td></tr>
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td><b>Datos De Entrada</b></td>
+                                    <td><b>Condiciones</b></td>
+                                    <td><b>Valor Verdadero</b></td>
+                                    <td><b>Valor Falso</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Usuario</td>
+                                    <td>Correo electrónico </td>
+                                    <td>
+                                        <ul>
+                                            <li>Máximo 65 caracteres.</li>
+                                            <li>Mínimo 10 caracteres.</li>
+                                            <li>Números y letras.</li>  
+                                            <li>Dominio y arroba.</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>Máximo 50 caracteres.</li>
+                                            <li>Mínimo 10 caracteres.</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Contraseña</td>
+                                    <td>
+                                        <ul>
+                                            <li>Mínimo 4 caracteres.</li>
+                                            <li>Máximo 5 caracteres.</li>
+                                            <li>Números.</li>
+                                            <li>Letras.</li>
+                                            <li>Mayúscula.</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>String min de 4 caracteres.</li> 
+                                            <li>Max 5 caracteres.</li>
+                                            <li>Debe tener número y mayúscula.</li>
+                                        </ul>
+                                    </td>
+                                    <td>String sea menor de 10 y mayor de 6 que no tenga número ni mayúscula.</td>
+                                </tr>
+                                <tr>
+                                    <td>Teléfono</td>
+                                    <td>10 dígitos</td>
+                                    <td>
+                                        <ul>
+                                            <li>Máximo 10 números.</li>
+                                            <li>Mínimo 10 numerosa.</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>Máximo 20 números.</li>
+                                            <li>Mínimo 8 números.</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Ciudad</td>
+                                    <td>Solo letras.</td>
+                                    <td>
+                                        <ul>
+                                            <li>Máximo 65 caracteres</li>
+                                            <li>Mínimo 5 caracteres</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>Máximo 2 caracteres</li>
+                                            <li>Mínimo 1 carácter</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Correo electrónico</td>
+                                    <td>65 caracteres </td>
+                                    <td>
+                                        <ul>
+                                            <li>Máximo 65 caracteres. </li>
+                                            <li>Mínimo 10 caracteres.</li>
+                                            <li>Números y letras.</li>
+                                            <li>Dominio y arroba.</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>Máximo 50 caracteres.</li>
+                                            <li>Mínimo 10 caracteres.</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        <!--Entrada-->
+                        <li style="list-style: none;">
+                            <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: justify;border-color: black;margin-bottom: 30px;">
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td colspan="3"><h5><b>Entrada</b></h5></td>
+                                </tr>
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td><b>Caso</b></td>
+                                    <td><b>Valor Verdadero</b></td>
+                                    <td><b>Valor Falso</b></td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2">Registro De Usuario</td>
+                                    <td>
+                                        <ul>
+                                            <li>Jorge@gmail.com</li>
+                                            <li>Jor12</li>
+                                            <li>3006710711</li>
+                                            <li>Cartagena </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>Jorgegmail.com</li>
+                                            <li>Jorgeee</li>
+                                            <li>456471236745</li>
+                                            <li>Cartagena23</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li>Samlyguzman12@gmail.com</li> 
+                                            <li>Sam12</li>
+                                            <li>3214663164</li>
+                                            <li>Barranquilla</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>Samly.com</li>
+                                            <li>1223445678</li>
+                                            <li>1234567891011</li>
+                                            <li>Barranquilla32</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </li>
+                        <!--Resultado esperado-->
+                        <li style="list-style: none;">
+                            <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: justify;border-color: black;margin-bottom: 30px;">
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td colspan="3"><h5><b>Resultado Esperado.</b></h5></td>
+                                </tr>
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td><b>Caso</b></td>
+                                    <td><b>Valor Verdadero</b></td>
+                                    <td><b>Valor Falso</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Registro de usuario</td>
+                                    <td>
+                                        <ul>
+                                            <li>Mensaje que indique que se registro exitosamente.</li>
+                                            <li>Puede ingresar al módulo de Loguin.</li>
+                                        </ul>
+                                    </td>
+                                    <td>Mensaje de advertencia.</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <!--Evaluación de la Prueba-->
+                        <li style="list-style: none;">
+                            <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: justify;border-color: black;margin-bottom: 30px;">
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td colspan="4"><h5><b>Evaluación de la Prueba.</b></h5></td>
+                                </tr>
+                                <tr style= "background-color: gray;color: white; text-align: center;">
+                                    <td><b>Caso</b></td>
+                                    <td><b>Aprobado</b></td>
+                                    <td><b>No Aprobado</b></td>
+                                    <td><b>Comentario</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Módulo de Loguin</td>
+                                    <td>X</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </li>
+                    </ol>
+                </article>
+                <!--1- DESCRIPCION-->
+                <article border="3" style="margin-top: 20px;text-align: justify;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h4 style="text-align: center;"><strong>¡Aviso!</strong></h4>
+                    <p>
+                        Si desea ver el archivo completo se le sugiere descargar el archivo, o descargar la carpeta comprimida que contiene todos los documentos completos
+                    </p>
+                </article>
+            </section>
+        </main>
+        <footer height="100">
+            <div id="lado1">
+            <a class="j1" href="../assets/doc/PlanDePruebas.rar" download="PlanDePruebas.rar"><b>DESCARGAR TODOS LOS DOCUMENTOS</b></a>
+            </div>
+            <div id="lado2">
+                <button type="button" style="border: none;background-color: #8f8f8fc9; border-radius: 20px;"><a class="nav-link js-scroll-trigger ml-auto" href="#arriba"><img src="../assets/img/subir1.png" alt="" width="30" height="30"></a></button>
+            </div>
+        </footer>
+    </body>
+</html>

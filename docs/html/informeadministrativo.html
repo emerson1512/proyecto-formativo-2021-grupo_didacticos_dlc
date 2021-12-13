@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>INFORME ADMINISTRATIVO</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/encuesta_gerente.css">
+  </head>
+  <body style="background-color: gray;">
+    <nav height="100" id="arriba">
+      <div id="lado1">
+        <a class="j1" href="../index.html"><b>retorno</b></a>
+        </div>
+      <div id="lado2">
+        <img src="../assets/img/portfolio/Sena2.png" alt="" width="50" height="50"/>
+        </div>
+    </nav>
+    <main class="container" style="background-color: gray;  margin-bottom: 20px;">
+      <section class="row">
+        <!--NOMBRE DEL PROYECTO-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h1><strong>ANÁLISIS, DISEÑO, DESARROLLO E IMPLEMENTACIÓN DE UN SOFTWARE DE VENTAS PARA LA EMPRESA DISTRIBUCIONES Y DIDACTICOS DE LA COSTA. (SOVEDIDCOST).</strong></h1>
+        </article>
+        <!--NOMBRE DE LA EMPRESA-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h2>DISTRIBUSCIONES Y DIDACTICOS DE LA COSTA.</h2>
+        </article>
+        <!--CONTROL DE VERSION-->
+        <section border="3" style="margin-top: 20px;text-align: center;padding-top: 25px ;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: center;border-color: black;margin-bottom: 30px;">
+          <tr style= "background-color: gray;color: white;">
+              <td><b>Fecha</b></td>
+              <td><b>Version</b></td>
+              <td><b>Descripcion</b></td>
+              <td><b>Autor(es)</b></td>
+          </tr>
+          <tr>
+              <td>29-09-2021</td>
+              <td>1.0</td>
+              <td>Primera version del software</td>
+              <td>
+              <ul>
+                  <li style="list-style: none;">Samly Guzman</li>
+                  <li style="list-style: none;">Maverick Fruto</li>
+                  <li style="list-style: none;">Jorge Gonzalez</li>
+                  <li style="list-style: none;">Emerson Gonzalez</li>
+                  <li style="list-style: none;">Roberto cahuana</li>
+              </ul>
+              </td>
+          </tr>
+          </table>
+        </section>
+        <!--1- INFORME ADMINISTRATIVO-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h3><strong>INFORME ADMINISTRATIVO.</strong></h3>
+        </article>
+        <article border="3" style="margin-top: 25px;padding: 10px 0; ;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-1 col-sm-1 col-xs-1">
+          <button type="button" style="border: none;background-color:#E7E7E7;"><a href="../assets/doc/InformeAdministrativo.pdf" download="InformeAdministrativo.pdf"><img src="../assets/img/descarga.png" alt="" width="30" height="30"></a></button>
+        </article>
+        <!--INTRODUCCION-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>1.	INTRODUCCION</b></h4>
+          <p style="text-align:justify;">
+            El presente documento contempla aquellos documentos que hacen parte del informe administrativo, como son:<br>
+            1.	Plan de copia de seguridad.<br>
+            2.	Plan de migración.<br>
+            3.	Plan de capacitación.<br>
+            Dentro del mismo se encuentran unas recomendaciones para seguir en los procesos que se llevaran a cabo en la implantación del sistema de información de la empresa distribuciones y didácticos de la costa.
+          </p>
+        </article>
+        <!--ALCANCE-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>2.	ALCANCE</b></h4>
+          <p style="text-align:justify;">
+            Para el sistema de información de sovedidcost, el cumplimiento en la documentación es fundamental, para la entrega de los documentos correspondientes en la fecha estipulada; Dentro del alcance se definirán los siguientes objetivos.
+          </p>
+        </article>
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h5><b>2.1. Objetivos específicos: </b></h5>
+          <p style="text-align:justify;">
+            •	Plan de migración (para actualizar la versión del sistema de gestión de base de datos).
+            <br>
+            •	Plan de copias de seguridad (para guardar la información almacenada en la base de datos).
+            <br>
+            •	Plan de capacitación (para indicar o enseñar a los usuarios el correcto manejo del sistema de información de la empresa distribuc|iones y didácticos de la costa).
+
+          </p>
+
+        </article>
+        <!--2- PLAN DE CAPACITACION-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h3><strong>PLAN DE CAPACITACION.</strong></h3>
+        </article>
+        <article border="3" style="margin-top: 25px;padding: 10px 0; ;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-1 col-sm-1 col-xs-1">
+          <button type="button" style="border: none;background-color:#E7E7E7;" onclick=""><a href="../assets/doc/PlanDeCapacitacion.pdf" download="PlanDeCapacitacion.pdf"><img src="../assets/img/descarga.png" alt="" width="30" height="30"></a></button>
+        </article>
+        <!--INTRODUCCION-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>1.	INTRODUCCION</b></h4>
+          <p style="text-align:justify;">
+            La capacitación se refiere a las actividades de enseñanza y aprendizaje realizadas con el objetivo principal de ayudar a los miembros de didácticos de la costa a adquirir y aplicar los conocimientos, habilidades, capacidades y actitudes necesarias para un trabajo y una organización en particular. <br>
+            El plan de capacitación hace referencia a la planificación de las acciones de tipo formativas que serán realizadas en un lapso de tiempo. Es una forma de preparar al personal de trabajo para avanzar en su proyecto, esto facilitara la forma en que se debe hacer una buena capacitación a los diferentes usuarios que utilizaran el sistema de información sovedidcost.            
+          </p>
+        </article>
+        <!--JUSTIFICACION-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>2.	JUSTIFICACION.</b></h4>
+          <p style="text-align:justify;">
+            Es necesario tener un plan de capacitación, esto contribuirá a tener una mayor organización, permitirá obtener un buen resultado, la capacitación se dará de forma óptima. Es importante capacitar a los trabajadores, ya que a través de este medio contribuimos al crecimiento y consolidación de sus conocimientos, habilidades, actitudes y conductas, para asegurarnos que desempeñen un buen manejo al sistema de información bajo las mejores prácticas. <br> 
+            El desarrollo de un programa de capacitación ya sea general o por perfiles específicos, ayudará a la incrementación de ventas de los productos de la empresa, además contribuye a que toda la organización vaya en una misma dirección para alcanzar los objetivos en común. Es necesario hacer una capacitación para el manejo del software, ya que esto facilitara el acceso y la utilización de este. <br>
+            La capacitación permitirá a los usuarios tener un claro conocimiento de como utilizar de la mejor manera el sistema de información, además estarán capacitados para instruir. 
+          </p>
+        </article>
+        <!--OBJETIVOS-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>3.	OBJETIVOS.</b></h4>
+          <h5 style="text-align:justify;"><b>3.1</b> Objetivo general:</h5>
+          <p style="text-align:justify;">
+            Entrenar o capacitar a los usuarios de la empresa didácticos de la costa en el correcto funcionamiento del sistema de información sovedidcost, por lo cual es importante que se ejecute este plan de capación, con el objetivo de; quienes integren el equipo de trabajo, tengan las habilidades para poder realizar de manera eficiente las actividades que desarrollan diariamente. <br>
+            La capacitación permitirá a los usuarios tener un claro conocimiento de como utilizar de la mejor manera el sistema de información, además estarán capacitados para instruir. 
+          </p>
+          <h5 style="text-align:justify;"><b>3.2</b> Objetivos específicos:</h5>
+          <ol style="text-align:justify;">
+            <li>Enseñar como ingresa o encontrar el software.</li>
+            <li>Identificar cuales son los diferentes roles.</li>
+            <li>
+              Instruir o explicar las opciones básicas de los diferentes módulos. Nuestro sistema de información está basado en la venta de diferentes productos escolares de la empresa. Tiene los siguientes módulos: <br>
+              <ul>
+                <li>Módulo de Loguin.</li>
+                <li>Registros de usuarios.</li>
+                <li>Registro de productos.</li>
+                <li>Stock de productos.</li>
+                <li>Registro de solicitudes.</li>
+                <li>Selección de productos de la página principal.</li>
+                <li>Formulario de compra.</li>
+                <li>Módulo de ayuda</li>
+              </ul>
+            </li>
+            <li>Enseñar cuales las opciones del manejo de la información.</li>
+            <li>Enseñar las opciones para generar reportes.</li>
+            <li>Enseñar las opciones de configuración del sistema.</li>
+            <li>Capacitar a los usuarios según sus perfiles.</li>
+            <li>Entrenar y dar solución a dudas o preguntas que surjan durante el desarrollo del funcionamiento del sotfware.</li>
+            <li>Evaluar la capacitación para determinar que los conocimientos transferidos fueron asimilados.</li>
+          </ol>
+        </article>
+        <!--CATEGORIZACION DE LOS USUARIOS-->
+        <section border="3" style="margin-top: 20px;text-align: center;padding-top: 25px ;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: center;border-color: black;margin-bottom: 30px;">
+          <tr style= "background-color: gray;color: white;"><td colspan="4"><h4><b>4.	CATEGORIZACION DE LOS USUARIOS:</b></h4></td></tr>
+          <tr style= "background-color: gray;color: white;">
+              <td><b>Rol/Actor</b></td>
+              <td><b>Modulo/Funcionalidades</b></td>
+              <td><b>Usuarios</b></td>
+              <td><b>Competencias</b></td>
+          </tr>
+          <tr>
+              <td>Administrador</td>
+              <td>Todos los módulos.</td>
+              <td>Propietario de la empresa.</td>
+              <td>Alta</td>
+          </tr>
+          <tr>
+            <td>Trabajador</td>
+            <td>Módulo de Loguin.</td>
+            <td>Empleados de didácticos de la costa.</td>
+            <td>Medio</td>
+          </tr>
+          <tr>
+            <td>Cliente</td>
+            <td>
+              <ul style="text-align: left;">
+                <li>Registro de solicitudes.</li>
+                <li>Selección de productos de la página principal.</li>
+                <li>Módulo de ayuda.</li>
+              </ul>
+            </td>
+            <td>Usuarios externos.</td>
+            <td>Bajo</td>
+          </tr>
+          </table>
+        </section>
+        <!--METODOLOGIA-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>5.	METODOLOGIA.</b></h4>
+          <p style="text-align:justify;">
+            •	Para el desarrollo de la capacitación se va a realizar de manera virtual, se tendrán en cuenta las restricciones debido a la pandemia del COVID 19. <br>
+            •	 Esta capacitación se dividirá por grupos o roles: Administrador, trabajador, cliente. De acuerdo a esto se utilizarán unas técnicas para realizar la capacitación.
+          </p>
+          <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: center;border-color: black;margin-bottom: 30px;">
+            <tr style= "background-color: gray;color: white;font-weight: bolder;">
+                <td rowspan="3">VIRTUAL</td>
+                <td>Presentación</td>
+                <td>Objetivo</td>
+                <td>Finalidad </td>
+                <td>Tema</td>
+            </tr>
+            <tr>
+              <td>Video tutorial según los roles.</td>
+              <td>Que los usuarios tengan un buen manejo del aplicativo.</td>
+              <td>Capacitar a los usuarios.</td>
+              <td>Manejo de los módulos del software.</td>
+            </tr>
+            <tr>
+              <td>Sección de preguntas y respuestas.</td>
+              <td>Aclarar cualquier duda a los usuarios.</td>
+              <td>Los usuarios deben tener claro el manejo y funcionamiento del aplicativo.</td>
+              <td>Despeje de dudas.</td>
+            </tr>
+            </table>
+        </article>
+        <!--RECURSOS-->
+        <article border="3" style="margin-top: 20px;text-align:justify;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4 style="text-align:center;"><b>6.	RECURSOS.</b></h4>
+          <h5><b>6.1</b> Recursos humanos:</h5>
+          <p>
+            El personal del grupo didácticos de la costa. 
+          </p>
+          <h5><b>6.2</b> Recursos tecnológicos:</h5>
+          <P>Se hará una capacitación virtual los usuarios deben tener un computador y un video beam donde puedan ver el tutorial y por supuesto acceso a internet.</P>
+          <h5><b>6.3</b> Recurso físico:</h5>
+          <P>Se necesitará un espacio, salón o lugar donde los usuarios puedan estar concentrados y recibir su capacitación.</P> 
+        </article>
+        <!--CRONOGRAMA Y HORARIO-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>7.	CRONOGRAMA Y HORARIO.</b></h4>
+          <p style="text-align:justify;">
+            El horario de trabajo de didácticos de la costa es de lunes a viernes de 4 a 5 pm, por lo cual se va a hacer la capacitación dentro de estos horarios, se consideran que lo mas acertados a la realidad para explicar las temáticas correspondientes al sistema de información Sovedidcost. <br>
+            El esquema presentado puede someterse a cambios por parte de la empresa didácticos de la costa:
+          </p>
+          <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: center;border-color: black;margin-bottom: 30px;">
+            <tr style= "background-color: gray;color: white;font-weight: bolder;">
+                <td>HORA</td>
+                <td>LUNES</td>
+                <td>MARTES</td>
+                <td>MIERCOLES</td>
+                <td>JUEVES</td>
+                <td>VIERNES</td>
+                <td>SABADO</td>
+            </tr>
+            <tr>
+                <td>4-5PM</td>
+                <td>Video tutorial del rol administrador.</td>
+                <td>Video tutorial del rol trabajador.</td>
+                <td>Video tutorial del rol cliente.</td>
+                <td>Preguntas y respuestas del rol administrador.</td>
+                <td>Preguntas y respuestas del rol trabador.</td>
+                <td>Preguntas y respuestas del rol cliente.</td>
+            </tr>
+            <tr>
+              <td>5-6pm</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>6-7pm</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            </table>
+        </article>
+        <!--3- PLAN DE COPIAS DE SEGURIDAD Y RECUPERACION-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h3><strong>PLAN DE COPIAS DE SEGURIDAD Y RECUPERACION.</strong></h3>
+        </article>
+        <article border="3" style="margin-top: 25px;padding: 10px 0; ;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-1 col-sm-1 col-xs-1">
+          <button type="button" style="border: none;background-color:#E7E7E7;" onclick=""><a href="../assets/doc/PlanDeCopiasDeSeguridadYRecuperacion.pdf" download="PlanDeCopiasDeSeguridadYRecuperacion.pdf"><img src="../assets/img/descarga.png" alt="" width="30" height="30"></a></button>
+        </article>
+        <!--INTRODUCCION-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>1.	INTRODUCCION</b></h4>
+          <p style="text-align:justify;">
+            El presente plan de copias de seguridad, tiene como finalidad, garantizar el buen uso o manejo de la información clientes y la empresa, como también el backup de los archivos y la restauración de los archivos extraviados. <br>
+            Este plan está orientado al sistema de información sovedidcost, el cual se implementara en la empresa Distribuciones y didácticos de la costa.
+          </p>
+        </article>
+        <!--ALCANCE-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>2.	ALCANCE.</b></h4>
+          <p style="text-align:justify;">
+            Establecer las tareas o procesos necesarios para crear, mantener y restaurar la información que tenga y reciba la empresa por parte los clientes o generada por ella misma, como lo es, el registro de ventas o el registro de productos. <br>
+            En el siguiente documento se establecerá la frecuencia con la que se le realizara las copias de seguridad, el tipo de copias que se harán, los días y la hora establecida y el encargado de realizar la misma.
+          </p>
+        </article>
+        <!--OBJETIVOS-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>3.	OBJETIVOS.</b></h4>
+          <h5 style="text-align:justify;"><b>3.1</b> Objetivo general:</h5>
+          <p style="text-align:justify;">
+            Implementar un proceso basado en una buena práctica, que permita dar continuidad al sistema de información, respaldando los datos y posteriormente, recuperando los mismos. Estos datos se encontraran en el sistema de información sovedidcost, dirigido a la empresa distribuciones y didácticos de la costa 
+          </p>
+          <h5 style="text-align:justify;"><b>3.2</b> Objetivos específicos:</h5>
+          <ul style="text-align:justify;">
+            <li>Garantizar el correcto funcionamiento de backup, determinar las acciones para realizar el mismo y el funcionamiento del sistema de backup.</li>
+            <li>Generar un proceso para el respaldo de información, que permita tener disponibilidad de los datos de forma inmediata, en el momento de una contingencia.</li>
+            <li>Documentar el proceso de respaldo de información, para evidenciar de forma clara y concreta las herramientas y procedimientos que se deben tener en cuenta para dicho proceso.</li>
+          </ul>
+        </article> 
+        <!--DEFINICIONES-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>4.	DEFINICIONES.</b></h4>
+          <h5 style="text-align:justify;"><b>1 </b> Backups:</h5>
+          <p style="text-align:justify;">
+            se refiere a la copia de archivos físicos o virtuales o bases de datos a un sitio secundario para su preservación en caso de falla del equipo u otra catástrofe.
+          </p>
+          <h5 style="text-align:justify;"><b>2 </b> Software:</h5>
+          <P style="text-align:justify;">
+            sistema formal de un sistema informático, que comprende el conjunto de los componentes lógicos necesarios que hacen posible la realización de tareas específicas, en contraposición a los componentes físicos que son llamados hardware.
+          </P>
+          <h5 style="text-align:justify;"><b>3 </b> Sistema web:</h5>
+          <P style="text-align:justify;">
+            aquellas aplicaciones de software que puede utilizarse accediendo a un servidor web a través de Internet o de una intranet mediante un navegador. Usar aplicaciones web ahorra dinero.
+          </P>
+          <h5 style="text-align:justify;"><b>4 </b> Copia de seguridad:</h5>
+          <P style="text-align:justify;">
+            El objetivo de las copias de seguridad es poder recuperar tus archivos importantes en el caso de que se pierdan o se dañen. A este proceso de recuperación de datos perdidos se le llama Restauración de la copia de seguridad, y también puede ser útil en el caso de que hayas cambiado o reseteado tu ordenador.
+          </P>
+          <h5 style="text-align:justify;"><b>5 </b> Sistema de información:</h5>
+          <P style="text-align:justify;">
+            Está conformado por una serie de datos vinculados entre sí para conseguir un objetivo común. Un sistema de información tiene como principal objetivo la gestión, y administración de los datos e información que lo componen.
+          </P>
+          <h5 style="text-align:justify;"><b>6 </b>	Base de datos:</h5>
+          <P style="text-align:justify;">
+            Es una recopilación organizada de información o datos estructurados, que normalmente se almacena de forma electrónica en un sistema informático.
+          </P>
+          <h5 style="text-align:justify;"><b>7 </b>	Recuperación de datos:</h5>
+          <P style="text-align:justify;">
+            En informática, la recuperación de datos es el conjunto de técnicas y procedimientos utilizados para acceder y extraer la información almacenada en medios de almacenamiento digital que por daño o avería no pueden ser accesibles de manera usual.
+          </P>
+        </article> 
+        <!--COPIAS DE SEGURIDAD Y RECUPERACION EN DESASTRES-PLAN DE CONTINGENCIA-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>5.	COPIAS DE SEGURIDAD Y RECUPERACION EN DESASTRES-PLAN DE CONTINGENCIA</b></h4>
+          <p style="text-align:justify;">
+            Existe una gran cantidad de tipos de copias de seguridad, que se diferencian por su manera de copiar los datos, velocidad y requerimientos de espacio. <br>
+            Los principales tipos de copias de seguridad son:
+          </p>
+          <h5 style="text-align:justify;"><b>Completa.</b></h5>
+          <P style="text-align:justify;">
+            Se realiza una copia de seguridad de todos los archivos y carpetas seleccionados. Cuando se ejecutan copias posteriores, nuevamente se hace una copia de seguridad de todo el listado de archivos. La restauración de una copia de seguridad completa es rápida. Sin embargo, cada ejecución es lenta y ocupa más espacio con respecto a las otras tipologías.
+          </P>
+          <h5 style="text-align:justify;"><b>Incremental.</b></h5>
+          <P style="text-align:justify;">
+            Primero se realiza una copia de seguridad completa y las siguientes copias incluyen únicamente los cambios realizados desde la última copia de seguridad. Es mucho más rápida que una copia de seguridad completa y requiere menos espacio.
+          </P>
+          <h5 style="text-align:justify;"><b>Diferencial.</b></h5>
+          <P style="text-align:justify;">
+            Se realiza una copia de seguridad de todos los cambios realizados desde la última copia de seguridad completa. Es mucho más rápida y requiere menos espacio de almacenamiento que una copia de seguridad completa, pero más que una copia de seguridad incremental. Las restauraciones son más lentas que con una copia de seguridad completa, pero más rápidas que con copias de seguridad incrementales.
+          </P>
+          <h5 style="text-align:justify;"><b>Espejo.</b></h5>
+          <P style="text-align:justify;">
+            Es un reflejo fiel de la fuente que se está respaldando, lo que implica que un archivo eliminado en el origen, también se eliminará en la copia de seguridad. Debido a esto, este tipo de copia de seguridad debe usarse con precaución.
+          </P>
+          <h5 style="text-align:justify;"><b>Sintética completa.</b></h5>
+          <P style="text-align:justify;">
+            Reconstruye la imagen de copia de seguridad completa usando todas las copias incrementales o diferenciales. Puede almacenarse en cintas en localizaciones externas, con la ventaja de que se reduce el tiempo de restauración.
+          </P>
+          <h5 style="text-align:justify;"><b>Backup incremental inverso.</b></h5>
+          <P style="text-align:justify;">
+            Es una copia de seguridad incremental de los cambios realizados entre dos instancias de una copia espejo. Después de la copia completa inicial, cada copia sucesiva aplica los cambios a la anterior completa, creando una nueva copia de seguridad sintética completa cada vez, mientras se mantiene la capacidad de volver a las versiones anteriores.
+          </P>
+          <h5 style="text-align:justify;"><b>Protección de datos continua (CDP).</b></h5>
+          <P style="text-align:justify;">
+            Permite una mayor cantidad de puntos de restauración con respecto a los demás tipos de copia de seguridad.
+          </P>
+        </article> 
+        <!--PLAN DE COPIAS DE SEGURIDAD-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h5><b>5.1.	Plan de copias de seguridad.</b></h5>
+          <p style="text-align:justify;">
+            Para mejor respaldo de la información de la empresa, el sistema realizara una copia de seguridad incremental cada 8 días(los días domingos) a las cero horas (00:00am) ya que hay menos transacciones en el sistema de información.
+          </p>
+          <table border="1" class="col-md-12 col-sm-12 col-xs-12" style="text-align: center;border-color: black;margin-bottom: 30px;">
+            <tr style= "background-color: gray;color: white;font-weight: bolder;">
+              <td colspan="6">Tiempos de copia de seguridad aproximados</td>
+            </tr>
+            <tr>
+                <td style= "background-color: gray;color: white;">Datos/Velocidad</td>
+                <td>56 Kbps</td>
+                <td>256 Kbps</td>
+                <td>1,5 Mbps</td>
+                <td>10 Mbps</td>
+                <td>100 Mbps</td>
+            </tr>
+            <tr>
+                <td>100 MB</td>
+                <td>4 horas</td>
+                <td>1 hora</td>
+                <td>10 minutos</td>
+                <td>2 minutos</td>
+                <td>9 segundos</td>
+            </tr>
+            <tr>
+              <td>500 MB</td>
+              <td>21 horas</td>
+              <td>5 horas</td>
+              <td>45 minutos</td>
+              <td>7 minutos</td>
+              <td>42 segundos</td>
+            </tr>
+            <tr>
+              <td>1 GB</td>
+              <td>2 días</td>
+              <td>10 horas</td>
+              <td>2 horas</td>
+              <td>15 minutos</td>
+              <td>2 minutos</td>
+            </tr>
+            <tr>
+              <td>5 GB</td>
+              <td>9 días</td>
+              <td>2 días</td>
+              <td>8 horas</td>
+              <td>1 hora</td>
+              <td>8 minutos</td>
+            </tr>
+            <tr>
+              <td>10 GB</td>
+              <td>18 días</td>
+              <td>4 días</td>
+              <td>16 horas</td>
+              <td>3 horas</td>
+              <td>15 minutos</td>
+            </tr>
+            <tr>
+              <td>30 GB</td>
+              <td>54 días</td>
+              <td>12 días</td>
+              <td>2 días</td>
+              <td>7 horas</td>
+              <td>43 minutos</td>
+            </tr>
+            </table>
+        </article>
+        <!--5.2 Plan y estrategia de copias de seguridad-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h5><b>5.2 Plan y estrategia de copias de seguridad</b></h5>
+          <p style="text-align:justify;">
+            Como estrategia, para realizar este plan de copias de seguridad, se utilizara la de tipo incremental, la cual se basa en disponer en todo momento de una copia actualizada de nuestros datos que es posible restaurar en el caso de necesidad. <br>
+            La principal característica de la copia de seguridad incremental es que nos permite guardar únicamente los datos que han sido modificados desde la última copia. Para ello, se realizan los siguientes pasos: <br>
+            <ol style="text-align:justify;">
+              <li>En primer lugar, se lleva a cabo una copia de seguridad completa. Se trata de un respaldo de todos los archivos y carpetas, lo que necesita tanto tiempo y recursos, dependiendo de la cantidad total de datos.</li>
+              <li>A continuación, se realiza una copia incremental propiamente dicha. En esta, se incluyen solamente aquellos archivos cuya hora y fecha de modificación haya cambiado desde la copia completa.</li>
+              <li>Finalmente, se pueden repetir otras copias incrementales las veces que deseemos, cada una de las cuales contendrá únicamente los datos que han sido modificados desde la anterior.</li>
+            </ol>
+          </p>
+        </article>
+        <!--INFORMACIÓN QUE SE DEBE RESPALDAR-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>6.	INFORMACIÓN QUE SE DEBE RESPALDAR</b></h4>
+          <p style="text-align:justify;">
+            La información a respaldar va ser copiada o almacenada, en la base de datos del sistema de información sovedidcost en su totalidad, tal información corresponde a los distintos usuarios, trabajadores, administrador, proveedores y también los productos o cualquier otro registro que se haga en el sistema, sobre todo las ventas que se hagan en un establecido tiempo, por la empresa, Distribuciones y didácticos de la costa. Estas copias de seguridad se guardaran en un disco duro extraíble, sin negar la posibilidad de otra opción.
+          </p>
+        </article>
+        <!--ESTRATEGIA DE COPIA DE SEGURIDAD-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>7.	ESTRATEGIA DE COPIA DE SEGURIDAD</b></h4>
+          <p style="text-align:justify;">
+            En este caso, para la sovedidcost, se implementara un estrategia de copias de seguridad tipo incremental, que consiste en realizar una copia de seguridad completa y las siguientes copias incluyen únicamente los cambios realizados desde la última copia de seguridad. Es mucho más rápida que una copia de seguridad completa y requiere menos espacio.
+          </p>
+          <ul style="text-align: left;">
+            <li><b>Frecuencia de las copias de respaldo</b><br>
+              Cada 8 días(los días domingos) a las cero horas (00:00am).
+            </li>
+            <li><b>Encargado de la copia de seguridad</b><br>
+              Administrador del sistema.
+            </li>
+          </ul>
+        </article>
+        <!--RESTAURACION-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>8.	RESTAURACION</b></h4>
+          <p style="text-align:justify;">
+            En este documento también se va especificar la forma de realizar la restauración, que depende de la copia de seguridad. Este proceso permite la recuperación o restauración de la información, en caso que se presente incidentes o fallos en el sistema de información sovedidcost. <br>
+            Para que se lleve a cabo una restauración, primeramente, debe haber una copia de seguridad, al igual que las copias de seguridad, también existen diferentes formas para hacer dicha restauración. <br>
+          </p>
+          <ul style="text-align: left;">
+            <li style="list-style: none;"><b>Tipos de recuperación de datos</b></li>
+            <li><b>Restauración de la base de datos</b><br>
+              Restaura la base de datos completamente. Si la sesión seleccionada es una copia de seguridad diferencial de base de datos o una copia de seguridad completa parcial, se necesita la última copia de seguridad completa de la base de datos como requisito previo. Si la sesión seleccionada es una copia de seguridad diferencial parcial, se necesita la última copia de seguridad completa de base de datos o completa parcial como requisito previo.
+            </li>
+            <li><b>Restauración del registro de transacciones</b><br>
+              Restaura el registro de transacciones. Restaurar un registro de transacciones también se denomina "aplicar" un registro de transacciones. Cuando restaura un registro de transacciones, Microsoft SQL Server vuelve a ejecutar los cambios contenidos en el registro y restaura las transacciones que no estuvieran confirmadas cuando se hizo la copia de seguridad del registro de transacciones. <br>
+              Una vez restaurada una base de datos a partir de una copia de seguridad completa, podrá cargar la copia de seguridad diferencial (si existe) y las copias de seguridad del registro de transacciones que se crearon después de la copia de seguridad de la base de datos. La carga de registros de transacciones permite recuperar una base de datos de la forma más completa posible. <br>
+              Debe cargar las copias de seguridad del registro de transacciones en la secuencia en la que fueron creadas. Microsoft SQL Server comprobará las marcas de hora de cada base de datos de la que se ha realizado la copia de seguridad y cada registro de transacciones del que se ha realizado la copia de seguridad para comprobar que la secuencia es correcta. <br>
+              Una vez que Microsoft SQL Server ha cargado la secuencia de las copias de seguridad del registro de transacciones por completo, se restaurará la base de datos al estado en que estaba cuando se realizó la última copia de seguridad del registro de transacciones, sin incluir las transacciones no confirmadas. La única transacción no confirmada que Microsoft SQL Server no restaura es la transacción de registro de la copia de seguridad de Microsoft SQL, que se completa como parte del proceso de restauración. <br>
+            </li>
+            <li><b>Nota:</b>> La restauración de un registro de transacciones debe aplicarse a la base de datos original o a una copia restaurada de la base de datos original. De lo contrario, no se podrán aplicar los registros.</li>
+          </ul>
+        </article>
+        <!--4- PLAN DE MIGRACION-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h3><strong>PLAN DE MIGRACION</strong></h3>
+        </article>
+        <article border="3" style="margin-top: 25px;padding: 10px 0; ;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 25px;" class="col-md-1 col-sm-1 col-xs-1">
+          <button type="button" style="border: none;background-color:#E7E7E7;" onclick=""><a href="../assets/doc/PlanDeMigracion.pdf" download="PlanDeMigracion.pdf"><img src="../assets/img/descarga.png" alt="" width="30" height="30"></a></button>
+        </article>
+        <!--INTRODUCCION-->
+        <article border="3" style="margin-top: 20px;text-align: justify;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4 style="text-align:center;"><b>1.	INTRODUCCION</b></h4>
+          <p>
+            La información relacionada en la migración de datos como son actualizaciones o cambios de sistemas de información, bases de datos o la implementación de nuevas tecnologías, en el sistema web sovedidcost, implica aspectos muy importantes, como por ejemplo:
+            <ul>
+              <li>¿Por qué llevar a cabo la migración?</li>
+              <li>¿Que información se va migrar?</li>
+              <li>¿Cuáles son los sistemas de gestión que se va utilizar para la gestión?</li>
+            </ul>
+            La intensión de desarrollo de este trabajo, es poder migrar los datos del sistema de información sovedidcost, de manera segura.
+          </p>
+        </article>
+        <!--ALCANCE-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>2. ALCANCE</b></h4>
+          <p style="text-align:justify;">
+            En cuanto al alcance del presente plan de migración, está determinado por los siguientes aspectos:
+          </p>
+          <ul style="text-align:justify; list-style: none;">
+            <li>2.1 Propósito.</li>
+            <li>Trasladar datos desde el sistema sovedidcost hacia otros sistemas.  Dentro de este proceso se encuentran los pasos para extraer, transformar, cargar y limpiar los datos al sistema destino.</li>
+            &nbsp;
+            <li>2.2 Objetivos.
+            <ul>
+              <li>Objetivos Generales:</li>
+              <li style="list-style: none;">Poder migrar los datos del sistema de información sovedidcost, de manera segura a otros sistemas nuevos.</li>
+              <li>Objetivos específicos:</li>  
+              <ul>
+                <li>Ambiente para llevar a cabo la migración.</li>
+                <li>Área y plazo para realizar este proceso.</li>
+                <li>Entregables.</li>
+                <li>Herramientas.</li>
+                <li>Estrategias.</li>
+              </ul>          
+            </ul>
+            </li>
+            &nbsp;
+            <li>2.3 presupuesto.</li>
+            <li>Como no contamos con un presupuesto por ser proyecto formativo, el proceso de migración, va ser realizado por el mismo personal de la empresa distribuciones y didácticos de la costa, que serán los encargados de hacer la migración.</li>
+            &nbsp;
+            <li>2.4 Áreas y plazos de ejecución.</li>
+            <li>El plan de migración se llevara a cabo, los días domingos alrededor de las 5:00pm, ya que no hay tanto ingreso de usuarios al sistema de información sovedidcost.</li>
+            &nbsp;
+            <li>2.5 Entregables.</li>
+            <li>Para tener una buena responsabilidad y organización al llevar a cabo este plan de migración, se presentaran diferentes documentos como:
+              <ul>
+                <li>Las autorizaciones por para de la empresa distribuciones y didácticos de la costa, para llevar a cabo o realizar el plan de migración.</li>
+                <li>La información previa de la migración.</li>
+                <li>Un acta que quede como constancia, luego de realizar el plan de migración.</li>
+              </ul>
+            </li>
+            &nbsp;
+            <li>2.6 roles y responsabilidades.</li>
+            <li>Se pide organizar un grupo de alrededor de 4 trabajadores de la empresa de distribuciones y didácticos de la costa, donde uno tome el liderazgo, haya un técnico, alguien con conocimientos en las tic, el administrador y el que redacte el acta de cumplimiento de este plan de migración.</li>
+            &nbsp;
+            <li>2.7 plan de comunicación.</li>
+            <li>El personal trabajador mencionado anteriormente, se podrán comunicar vía whatsapp, realizar llamadas por zoom o google meet o en su defecto, por correo electrónico. También se tendrá en cuenta, realizar reuniones presenciales, teniendo en cuenta el tiempo o disposición de cada trabajador.</li>
+          </ul>
+        </article>
+        <!--PLANEACION-->
+        <article border="3" style="margin-top: 20px;text-align: center;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4><b>3. PLANEACIÓN</b></h4>
+          <ul style="text-align:justify; list-style: none;">
+            <li>3.1 Diseño de la extracción.</li>
+            <li>
+              <ul>
+                <li>Estrategia Big-Bang. <br>
+                  Esta estrategia se basa en seguir usando el sistema actual mientras se va implementado la migración al nuevo sistema. De tal modo que hasta que todos los datos no estén migrados en el nuevo sistema, el sistema de base de datos anterior no se desactiva. <br>
+                  Una ejecución de migración de datos de Big-Bang es donde se mueve un conjunto de datos completos del sistema heredado al sistema de destino en una sola operación. Esto (ventana de mantenimiento), por ejemplo: el viernes los usuarios de negocios estarían utilizando el sistema antiguo, pero el lunes por la mañana se cambiarán al nuevo sistema.
+                </li>
+                <li>Estrategia de ejecución en paralelo. <br>
+                  Esta estrategia se basa en validar por un tiempo estipulado los resultados que tiene el nuevo sistema comparado con el anterior, corriendo en forma paralela los dos sistemas; es decir, tanto el sistema viejo como el nuevo sistema se están ejecutando en paralelo, por lo que los usuarios hacen su trabajo en el sistema antiguo y a su vez se van acostumbrando al nuevo sistema. <br>
+                  Es usado en ambientes donde se requiere garantizar el funcionamiento del nuevo sistema en un entorno real, antes de desactivar el viejo sistema. <br>
+                  Una desventaja es el costo de tener dos sistemas en funcionamiento, con personal para manejar e ingresar datos a los dos sistemas y el uso de los recursos de hardware que se consumen.
+                </li>
+                <li>Estrategia de migración incremental o por fases. <br>
+                  En esta estrategia el nuevo sistema se activa en forma incremental de acuerdo a como se van haciendo las migraciones, por lo que después de cada fase el sistema nuevo estará cada vez más cerca de estar implementado. No se espera a que todo el nuevo sistema esté listo para implementar su funcionamiento.
+                </li>
+                <li>Estrategia de migración con cero tiempos de inactividad <br>
+                  En otros tipos de proceso, que no se pueden detener o que una falla o retardo en la migración tendría drásticas consecuencias, se recomienda una opción de cero o casi cero tiempos de inactividad. <br>
+                  Por ejemplo, un proyecto de migración que tenga 10 meses de duración que requiere apagar todo el sistema por solo 5 minutos para el cambio de servidores, se puede considerar como una migración con un tiempo muy cercano a cero de acuerdo con el tiempo total del proyecto. <br>
+                  Esta estrategia se puede basar en una combinación de otras estrategias como migraciones incrementales y de ejecución en paralelo. <br>
+                  Se utilizará la Estrategia de ejecución en paralelo.
+                </li>
+              </ul>
+            </li>
+            &nbsp;
+            <li>3.2 Requisitos de la transformación de datos.</li>
+            <li><ul><li>Extraer los datos, es necesario que sean preparados para que sean cargados nuevamente a la nueva estructura para ello hay que realizar conversiones necesarias en la base de datos dependiendo de la configuración del sistema actual y el sistema futuro.</li>
+              <li>Verificar si los dos sistemas son compatibles si manejan los mismos tipos de datos.</li></ul>
+            </li>
+            &nbsp;
+            <li>3.3 Estándares de calidad de aplicable. </li>
+            <li>Dentro de las distintas actividades que conlleva a la migración de datos:
+              <ul>
+                <li>Sincronización de bases de datos <br>
+                  Es una técnica muy utilizada en procesos de migración de datos, consiste en hacer que dos bases de datos sean equivalentes en el mismo tiempo. <br>
+                  Se logra mediante la copia de datos y metadatos de una base de datos origen a una base de datos destino mediante una herramienta tecnológica y en unos lapsos de tiempo determinados. <br>
+                  Los asistentes de sincronización de los SMBD son configurados con las bases de datos origen y la base de datos destino, parame trizando la ubicación de particiones y métodos de seguridad.                  
+                </li>
+                <li>Importación o exportación de archivos (Planos-CSV-XML) <br>
+                  Para las actividades de migración de datos es muy común utilizar archivos para el movimiento de los datos. Se pueden utilizar diferentes tipos de archivos, pero los formatos más usados son los archivos de texto o también llamados archivos planos, que guardan la información sin formato usando solo caracteres. Los sistemas de codificación más comunes para estos archivos son: ASCII, ISO-8859-1 o Latín-1 y Unicode. <br>
+                  Estos archivos de texto pueden tener formato delimitado utilizando coma (,), punto y coma (;) o tabulaciones (|) para delimitar o separar los campos definiendo de esa forma columnas y filas. También pueden tener formato de ancho fijo para los campos, utilizados para delimitar columnas y filas. <br>
+                  Un formato de archivo plano muy usado es el “.CSV” (Comma-Separated-Values, en español Valores Separados por Coma), donde el delimitador o separador de campos es una coma. Este formato es muy usado para movimientos de datos con hojas de cálculo. <br>
+                  Otro formato útil para la migración de datos es el “.XML” (extensible Marckup Language), que utiliza un metalenguaje extensible de etiquetas las cuales sirven como estándar para intercambio de información estructurada entre distintas plataformas.
+                </li>
+                <li>Sentencias DML <br>
+                  Una posibilidad de los SMBD es la utilización de sentencias DML “Data Manipulation Language” (Sentencias de Manipulación de Datos) para generar scripts o consultas SQL que permiten realizar migraciones de bases de datos existentes. Estas sentencias comprenden las siguientes instrucciones:
+                  <ul>
+                    <li>Select: para obtener datos de una tabla.</li>
+                    <li>Insert: para insertar datos a una tabla.</li>
+                    <li>Update: para actualizar o modificar los datos existentes en una tabla.</li>
+                    <li>Delete: para eliminar los registros de una tabla.</li>
+                  </ul>
+                  Los procesos se orientan al uso de las sentencias DML, para realizar el paso de datos de la base de datos de origen a la base de datos destino, a través de los entornos administrativos de los SMBD. <br>
+                  Igualmente se puede crear script SQL para realizar las siguientes tareas:
+                  <ul>
+                    <li>Copia de seguridad para creación de todos los usuarios, grupos, inicios de sesión y permisos.</li>
+                    <li>Creación o actualización de código para la implementación de una base de datos.</li>
+                    <li>Creación de un entorno de pruebas.</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            &nbsp;
+            <li>3.4 Procedimientos ETCL (Extracción, transformación, carga y limpieza).</li>
+            <li>Esta técnica se basa en el diseño y construcción de procedimientos técnicos para realizar extracción, transformación, cargue y limpieza de datos (ETCL).</li>
+            &nbsp;
+            <li>3.5 Reglas de mapeo de datos.</li>
+            <li>El mapeo de campos y el tipo de datos correspondiente a cada campo, se realiza tanto en la base de datos fuente como la de destino, para asegurar la consistencia de la información. <br>
+                Para la aplicación de ésta técnica se deben realizar reuniones de levantamiento de información, donde se obtenga el diccionario de datos (con la descripción de las tablas y los campos del sistema origen y destino), y análisis de campos de la base de datos destino que no se pueden mapear con la base de datos fuente. En este último caso se debe de dejar claro que dato va a recibir los campos en el destino cuando no pueden ser mapeados, por ejemplo: datos NULL o datos con cadenas vacías ‘’ o campos con valor 0 en el caso de campos numéricos.</li>
+            &nbsp;
+            <li>3.6 Descripción del entorno de pruebas.</li>
+            <li>Ambiente para realizar la migración de datos <br>
+              Todo el proceso de migración de datos se debe de realizar en un entorno o ambiente de pruebas, donde se posean los objetos involucrados en este proceso, sistema de información, bases de datos, archivos externos, entre otros. <br>
+              Una vez el proceso de migración sea exitoso en el ambiente de pruebas y se esté seguro de no haber pérdidas de datos y no tener problemas de interpretación de datos, se procede a recibir la aceptación del cliente o usuario funcional líder para que autorice las actividades de la migración en un ambiente o entorno de producción.
+              </li>
+              &nbsp;
+            <li>3.7 Test de integración.</li>
+            <li>Se puede realizar de dos maneras:
+              <ul>
+                <li>Comparación de datos a nivel de modelo.</li>
+                <li>Verificación de datos a nivel de lógica del sistema migrado.</li>
+              </ul>
+            </li>
+            &nbsp;
+            <li>3.8 Recuperación para las fases.</li>
+            <li>Aquí se hace énfasis en el caso de que migración por algún motivo se vea interrumpido, en caso de que no hay fluido eléctrico o que hay algún problema de red, para esto vamos a contar con generadores o cualquier otro elemento que nos permita proporcionar fluido eléctrico, contar con un Modem auxiliar y poder seguir con el proceso de migración.</li>
+        </article>
+        <!--PREPARACION DE DATOS-->
+        <article border="3" style="margin-top: 20px;text-align: justify;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4 style="text-align:center;"><b>4. PREPARACIÓN DE DATOS</b></h4>
+          <p>
+            Los datos y el sistema necesitan una preparación previa antes de la migración, esto hay que tenerlo en cuenta.
+          </p>
+          <ul style="list-style: none;">
+            <li>4.1 Requisitos de calidad de datos.</li>
+            <li><ul><li>Conocer las estructuras de las tablas</li><li>Limpiar o borrar información que no se necesita migrar.</li></ul></li>
+            &nbsp;
+            <li>4.2 Perfilado de datos.</li>
+            <li>Al momento de migrar debemos conocer si el sistema de base de datos es compatible, para esto debemos conocer el sistema de datos origen y el sistema de datos destino.  Tener en cuenta la codificación de los caracteres.</li>
+            &nbsp;
+            <li>4.3 Limpieza de datos.</li>
+            <li>Para verificar si la migración se hizo correctamente se debe hacer una consulta en la base de datos origen y destino, garantizando que la información sea la misma.</li>
+          </ul>
+        </article>
+        <!--SEGURIDAD-->
+        <article border="3" style="margin-top: 20px;text-align: justify;border-color: black;background-color:#E7E7E7; border-radius: 10px;" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h4 style="text-align:center;"><b>5. SEGURIDAD</b></h4>
+          <p>
+            La ley exige que se protejan los datos, preservar la integridad de los datos de nuestros usuarios.
+          </p>
+          <ul style="list-style: none;">
+            <li>5.1 Autorización de datos.</li>
+            <li>La autorización de acceso de la información almacenada en la base de datos del aplicativo didácticos de la costa está dada por un usuario principal que tiene todos los privilegios.</li>
+            &nbsp;
+            <li>5.2 Niveles de acceso.</li>
+            <li>Dependiendo del tipo de usuario va a tener acceso a los distintos a niveles.</li>
+            &nbsp;
+            <li>5.3 Enmascaramiento de datos.</li>
+            <li> Aquí el usuario que tiene todos los privilegios, es este caso el usuario administrador tenga conocimiento del manejo del sistema de base de datos, para ser uso de esta sentencia. Aquí se protege la información de los clientes.</li>
+            &nbsp;
+            <li>5.4 Técnicas de encriptación.</li>
+            <li> La migración es una forma de proteger los datos, es muy utilizada por diferentes compañías, en el caso de nuestro sistema de información utilizaremos mqsl que es gratuita, que presta seguridad a nuestros datos.</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+    <footer height="100">
+      <div id="lado1">
+      <a class="j1" href="../assets/doc/InformeAdministrativo.rar" download="InformeAdministrativo.rar"><b>DESCARGAR TODOS LOS DOCUMENTOS</b></a>
+      </div>
+      <div id="lado2">
+        <button type="button" style="border: none;background-color: #8f8f8fc9; border-radius: 20px;"><a class="nav-link js-scroll-trigger ml-auto" href="#arriba"><img src="../assets/img/subir1.png" alt="" width="30" height="30"></a></button>
+    </div>
+    </footer>
+  </body>
+</html>
