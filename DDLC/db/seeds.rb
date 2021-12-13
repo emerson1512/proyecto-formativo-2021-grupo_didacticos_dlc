@@ -5,8 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Tipo.create(tipo: "sueter" )
-Tipo.create(tipo: "jean" )
+Tipo.create(tipo: "" )
+Tipo.create(tipo: "" )
 
-Genero.create(genero: "hombre")
-Genero.create(genero: "mujer")
+Genero.create(genero: "")
+Genero.create(genero: "")

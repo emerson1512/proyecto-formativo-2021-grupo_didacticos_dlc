@@ -1,31 +1,41 @@
+# esta clase compra funcionara como controlador para renderizar hacia la vista compra
+# @Autor: Roberto Cahuana - Desarrollador
+# @version: 1.0
+
 class ComprasController < ApplicationController
 
+  # @Método GET  para  el formulario de nuevo compra
   def new
-    @compra = Compra.new   
+    @compra = Compra.new
   end
 
+   # @Método GET para obtener todos los compras de la base de datos
   def index
     @compras = Compra.all
   end
 
+  # @Metodo PATCH Encontrar un compra especifico por id en la tabla compra
   def show
-    @compra = Compra.find(params[:id])           
+    @compra = Compra.find(params[:id])
   end
 
+  # @Método POST  para  procesar datos de formularios
   def create
     @compra = Compra.new( compra_params)
     if @compra.save
-      flash[:notice] = 'compra agregada!' 
+      flash[:notice] = 'compra agregada!'
       redirect_to @compra
     else
       render :new
     end
-  end  
+  end
 
+  # @Método GET  para  editar un compra basado en id en la Base de Dato
   def edit
     @compra = Compra.find(params[:id])
   end
 
+  # @Metodo  PUT  para actualizar compra por id en la base de datos
   def update
     @compra = Compra.find(params[:id])
     if @compra.update(compra_params)
@@ -35,6 +45,7 @@ class ComprasController < ApplicationController
     end
   end
 
+  # @Metodo DELETE  Sirve para eliminar compra por id en la base de datos
   def destroy
     @compra = Compra.find(params[:id])
     if @compra.destroy

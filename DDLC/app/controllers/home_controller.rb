@@ -1,39 +1,45 @@
+# esta clase home funcionara como controlador para renderizar hacia la vista home
+# @Autor: Roberto Cahuana - Desarrollador
+# @version: 1.0
+
 class HomeController < ApplicationController
 
     #before_action :authenticate_user!
     before_action :authenticate_user!, only: [:index]
 
+    # @Método GET  para  el formulario de nuevo producto
     def new
-    @producto = Producto.new   
+    @producto = Producto.new
     end
 
-    # Método GET para obtener todos los productos de la base de datos
+    # @Método GET para obtener todos los productos de la base de datos
     def index
     @productos = Producto.all
     end
 
-    #encontrar un registro por id
+    # @Metodo PATCH Encontrar un producto especifico por id en la tabla producto
     def show
-    @producto = Producto.find(params[:id])           
+    @producto = Producto.find(params[:id])
     end
 
-    # Método GET  para  editar un producto basado en id
+    # @Método GET  para  editar un producto basado en id en la Base de Dato
     def edit
     @producto = Producto.find(params[:id])
     end
 
-    # Método POST  para  procesar datos de formularios 
-    def create   
-    @producto = Producto.new(producto_params)   
-    if @producto.save   
-        flash[:notice] = 'Producto agregado!'   
-        redirect_to @producto 
-    else   
-        flash[:error] = 'No se pudo editar el productos!'   
-        render "new"   
-    end   
-    end   
+    # @Método POST  para  procesar datos de formularios
+    def create
+    @producto = Producto.new(producto_params)
+    if @producto.save
+        flash[:notice] = 'Producto agregado!'
+        redirect_to @producto
+    else
+        flash[:error] = 'No se pudo editar el productos!'
+        render "new"
+    end
+    end
 
+    # @Metodo  PUT  para actualizar producto por id en la base de datos
     def update
     @producto = Producto.find(params[:id])
     if @producto.update(producto_params)
@@ -44,14 +50,15 @@ class HomeController < ApplicationController
     end
     end
 
-    def destroy  
-    @producto = Producto.find(params[:id])   
-    if @producto.destroy 
-        flash[:notice] = '¡Producto eliminado!'  
+    # @Metodo DELETE  Sirve para eliminar producto por id en la base de datos
+    def destroy
+    @producto = Producto.find(params[:id])
+    if @producto.destroy
+        flash[:notice] = '¡Producto eliminado!'
         redirect_to  @producto
-    else    
-        render "destroy"   
-    end   
+    else
+        render "destroy"
+    end
     end
 
     private
@@ -67,5 +74,5 @@ class HomeController < ApplicationController
         :foto
     )
     end
-    
+
 end
